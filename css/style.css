@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin-top: 0px;
 }
 
 .main-container {
@@ -58,6 +59,168 @@ a {
     color: var(--main-bg-color)
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    height: 50px;
+    vertical-align:top
+    
+}
+
+.sectionentete{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    align-self: stretch;
+
+
+}
+
+.Booki {
+    max-width: 70px;
+    height: auto;
+
+}
+
+.logo {
+    border-radius: 10px;
+}
+
+.entete {
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    text-decoration: overline;
+    margin-top: 0px;
+}
+
+.accueil:hover{
+    text-decoration: overline;
+    color: #0065FC
+}
+
+.activites:hover{
+    text-decoration: overline;
+    color: #0065FC;
+
+}
+
+.barrederecherche{
+    display: flex;
+    width: 377px;
+    height: 49px;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 25px;
+    justify-content: space-around;
+    border-radius: 15px;
+    border: 1px solid var(--Grey, #F2F2F2);
+    background: var(--White, #FFF);
+}
+
+input {
+    outline:  none;
+    border: 0px;
+    width: 227px;
+    height: 49px;
+
+}
+
+.boutonlocalisation{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    flex: 1;
+}
+
+.logoloc{
+    height: 50px;
+    width: 49px;
+}
+
+.boutonrecherche{
+    display: flex;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid var(--Blue, #0065FC);
+    background: var(--Blue, #0065FC);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.filtres{
+    display: flex;
+    height: 50px;
+    padding: 4px 19px;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.boutoneconomique{
+    display: flex;
+    border-radius: 25px;
+    border: 2px solid var(--grey-tint-2, #D9D9D9);
+    width: 173px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.boutonfamilial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 2px solid var(--grey-tint-2, #D9D9D9);
+    width: 173px;
+    height: 50px;
+    background-color: white;
+}
+
+.boutonromantique{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 2px solid var(--grey-tint-2, #D9D9D9);
+    width: 173px;
+    height: 50px;
+    background-color: white;    
+
+}
+
+.boutonpepites{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 2px solid var(--grey-tint-2, #D9D9D9);
+    width: 173px;
+    height: 50px;
+    background-color: white;
+}
+
+button:hover{
+    background-color:var(--blue-light, #DEEBFF);
+
+}
+
+.nblogements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -74,6 +237,28 @@ a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergementsmarseille{
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    flex: 1 0 0;
+    
+}
+
+.hebergement1{
+    width: 50%;
+}
+
+.hebergement2{
+    width: 50%;
+}
+
+.hebergement3{
+    width: 50%;
 }
 
 /****** Populaires ***********/
