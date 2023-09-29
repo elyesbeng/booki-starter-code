@@ -111,6 +111,13 @@ header {
 
 }
 
+.titredentete{
+    margin-bottom: 8px;
+}
+
+.phrasedaccrocheentete{
+    margin-top:0px ;
+}
 .barrederecherche{
     display: flex;
     width: 377px;
@@ -127,7 +134,7 @@ header {
 input {
     outline:  none;
     border: 0px;
-    width: 227px;
+    width: 200px;
     height: 49px;
 
 }
@@ -152,7 +159,7 @@ input {
     color: white;
     align-items: center;
     justify-content: center;
-    width: 100px;
+    width: 110px;
 }
 
 .filtres{
@@ -174,6 +181,7 @@ input {
     align-items: center;
     justify-content: center;
     background-color: white;
+    gap: 10px;
 }
 
 .boutonfamilial{
@@ -182,9 +190,10 @@ input {
     justify-content: center;
     border-radius: 25px;
     border: 2px solid var(--grey-tint-2, #D9D9D9);
-    width: 173px;
+    width: 134px;
     height: 50px;
     background-color: white;
+    gap: 10px;
 }
 
 .boutonromantique{
@@ -195,7 +204,8 @@ input {
     border: 2px solid var(--grey-tint-2, #D9D9D9);
     width: 173px;
     height: 50px;
-    background-color: white;    
+    background-color: white;
+    gap: 10px;    
 
 }
 
@@ -208,6 +218,7 @@ input {
     width: 173px;
     height: 50px;
     background-color: white;
+    gap: 10px;
 }
 
 button:hover{
@@ -241,13 +252,34 @@ button:hover{
 
 .hebergementsmarseille{
     display: flex;
-    padding-bottom: 0px;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
     flex: 1 0 0;
+}
+
+.hebergement-card{
+    height: auto;
+    width: 250px;
+}
+
+.images-hebergement{
+    height: 124px;
+    width: 240px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
+
+.hebergement-cards .card-content {
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 }
+
+
 
 .hebergement1{
     width: 50%;
@@ -306,6 +338,37 @@ button:hover{
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
+
+.section-activites{
+    margin-top: 30px;
+}
+
+.activitescards{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.images-activite{
+    align-self: center;
+    border-radius: 20px;
+    height: 395px;
+    width: 297px;
+}
+
+.activitescards .card-content {
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+
+
 
 
 
@@ -349,4 +412,42 @@ button:hover{
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+}
+
+footer{
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    justify-content: space-between;
+    gap: 0px;
+    margin-top: 55px;
+}
+
+
+.a-propos1{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.a-propos2{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.a-propos3{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
 }
