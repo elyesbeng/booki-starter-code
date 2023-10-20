@@ -67,9 +67,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     margin-top: 0px;
-    height: 50px;
+    height: 79px;
     vertical-align:top
     
 }
@@ -91,34 +90,51 @@ header {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     border-radius: 10px;
 }
 
 nav {
-    width: 328.601px;
+    height: 50px;
+    width: 244px;
     display: flex;
     align-items: center ;
     padding:0px 20px;
     gap: 68px;
     font-size: 16px;
-}
-
-nav a{
-    padding: 15px;
+    vertical-align: middle;
 }
 
 
-nav :hover{
-    padding-top: 10px;
-    text-decoration: overline;
-    color: #0065FC
+.hebergements{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    gap:14px;
+    height: 35px;
 }
 
-.activites:hover{
-    text-decoration: overline;
-    color: #0065FC;
-
+.hebergements :hover{
+    color: blue;
 }
+
+.activites{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    height: 35px;
+    gap: 14px;
+}
+
+hr{
+    color: #F2F2F2;
+}
+
+
+
+
+
 
 .titredentete{
     margin: 8px;
@@ -127,6 +143,8 @@ nav :hover{
 .phrasedaccrocheentete{
     margin-top:0px ;
 }
+
+
 .barrederecherche{
     display: flex;
     width: 377px;
@@ -596,7 +614,7 @@ body{
 
     
    
-}
+
 
 .activitescards .card-title2{
     margin-top: 12px;
@@ -648,12 +666,13 @@ footer p{
 
 }
 
+}
 
 
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    
 
 
 html{
@@ -784,10 +803,21 @@ nav a:hover{
 }
 
 .images-hebergement {
-    width: 325px;
+    width: 300px;
 }
 
 
+.hebergements-and-populaires section{
+    border-radius: 0px;
+    width: 100%;
+
+}
+
+.populaires .populaires-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 
 .section-activites{
@@ -796,6 +826,8 @@ nav a:hover{
     width: 100%;
     gap: 30px;
     margin-top: 0px;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .activitescards{
@@ -807,12 +839,12 @@ nav a:hover{
 
 .activitescards .card{
     height: auto;
-    width: 250px;
+    width: 300px;
 }
 
 .activitescards img{
     height: 124px;
-    width: 250px;
+    width: 300px;
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px ;
 
@@ -831,6 +863,8 @@ footer{
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
+    width: 120%;
 
 }
+
 }
