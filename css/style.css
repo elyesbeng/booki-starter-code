@@ -200,6 +200,10 @@ input {
     width: 110px;
 }
 
+.loupe-recherche{
+    display: none;
+}
+
 .filtres{
     display: flex;
     height: 50px;
@@ -692,7 +696,8 @@ html{
 }
 
 body{
-    padding-top:30px
+    padding-top:30px;
+    margin:0px
 
 }
 
@@ -728,6 +733,13 @@ nav :hover{
     width: 50%;
     align-items: center;
 }
+
+
+.bouton-hebergements hr :hover{
+    color: #0065FC;
+    
+}
+
 
 .activites{
     display: flex;
@@ -774,6 +786,28 @@ nav hr{
     margin-bottom: 0px;
 }
 
+.boutonrecherche{
+    display: none;
+}
+
+.barrederecherche{
+    width: auto;
+}
+
+.boutonlocalisation{
+    width: 49px;
+}
+
+.loupe-recherche{
+    display: flex;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid var(--Blue, #0065FC);
+    background: var(--Blue, #0065FC);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 49px;
+}
 
 .filtres{
     display: flex;
@@ -782,6 +816,7 @@ nav hr{
     align-items: flex-start;
     gap: 20px;
     margin-bottom: 35px;
+    margin-top: 15px;
     
 }
 
@@ -832,7 +867,6 @@ nav hr{
 
 .hebergementsmarseille{
     display: flex;
-    flex-direction: column;
     box-sizing: border-box;
     width: 100%;
     align-items: center;
@@ -877,6 +911,7 @@ nav hr{
     margin-top: 0px;
     justify-content: center;
     align-items: flex-start;
+    padding-top: 55px;
 }
 
 .activitescards{
