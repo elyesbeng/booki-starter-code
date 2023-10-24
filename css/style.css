@@ -99,7 +99,6 @@ nav {
     height: 50px;
     width: 244px;
     display: flex;
-    align-items: center ;
     padding:0px 20px;
     gap: 68px;
     font-size: 16px;
@@ -107,46 +106,19 @@ nav {
 }
 
 
-.bouton-hebergements{
+.bouton-hebergements-activites{
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
     gap:14px;
     height: 35px;
+    border-top: 2px solid #F2F2F2 ;
 }
 
-.bouton-hebergements :hover{
-    color: blue;
-}
-
-.activites{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-end;
-    height: 35px;
-    gap: 14px;
-}
-
-hr{
-    color: #F2F2F2;
-}
-
-.trait{
-    width: 113px;
-    color: #F2F2F2;
-}
-
-.trait :hover{
+.bouton-hebergements-activites:hover{
     color: #0065FC;
+    border-top: 2px solid blue;
 }
-
-.trait2{
-    width: 63px;
-}
-
-
-
-
 
 .titredentete{
     margin: 8px;
@@ -302,28 +274,28 @@ button:hover{
 
 .hebergementsmarseille{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
     margin-right: 0px;
     justify-content: space-between;
     flex: 1 0 0;
 }
 
-.hebergement-card{
-    height: auto;
+.hebergementsmarseille .card{
+    height: 207px;
     width: 250px;
 }
 
 .images-hebergement{
     height: 124px;
-    width: 240px;
+    width: 250px;
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px ;
 }
 
-.hebergement-cards .card-content {
-    width: 67%;
+.hebergementsmarseille .card .card-content {
+    width: 100%;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
@@ -331,6 +303,25 @@ button:hover{
     
 }
 
+.hebergementsmarseille .card .card-content h3{
+    margin-top: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 4px;
+}
+
+.hebergementsmarseille .card .card-content p{
+    margin-top: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 4px;
+}
+
+.colonne{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 
 
 
@@ -537,49 +528,51 @@ body{
 .populaires .populaires-cards{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 20px;
     
 }
 
 .populaires .card{
-    width: 250px;
+    width: 335px;
 }
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%;
+    width: 924px;
 }
 
 .hebergementsmarseille{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
     margin-right: 0px;
     justify-content: space-between;
     flex: 1 0 0;
     
 }
 
-.hebergement-card{
+.hebergementsmarseille .card{
     height: auto;
-    width: 250px;
+    width: 265px;
 }
 
 .images-hebergement{
     height: 124px;
-    width: 240px;
+    width: 264px;
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px ;
 }
 
 .hebergement-cards .card-content {
-    width: 67%;
+    width: 100%;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     
 }
+
 
 
 
@@ -727,40 +720,22 @@ nav :hover{
     
 }
 
-.bouton-hebergements{
+.bouton-hebergements-activites{
     display: flex;
     flex-direction: column;
     width: 50%;
     align-items: center;
+    border-top: 0px;
+    border-bottom: 2px solid #F2F2F2;
 }
 
-
-.bouton-hebergements hr :hover{
+.bouton-hebergements-activites:hover{
+    border-bottom: 2px solid blue;
     color: #0065FC;
-    
+    border-top:  0px; 
 }
 
 
-.activites{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    align-items: center;
-}
-
-nav hr{
-    margin: 0px;
-    color: #F2F2F2;
-}
-
-.trait{
-    width: 100%;
-    color: #F2F2F2;
-}
-
-.trait2{
-    width: 100%;
-}
 
 .sectionentete{
     display: flex;
@@ -894,6 +869,15 @@ nav hr{
     border-radius: 0px;
     width: 100%;
 
+}
+
+.colonne{
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hebergementsmarseille .card{
+    width: 300px;
 }
 
 .populaires .populaires-cards{
