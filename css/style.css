@@ -121,7 +121,9 @@ nav {
 }
 
 .titredentete{
-    margin: 8px;
+    margin-left: 0px;
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .phrasedaccrocheentete{
@@ -338,7 +340,7 @@ button:hover{
 }
 
 .afficher-plus{
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 /****** Populaires ***********/
@@ -514,6 +516,7 @@ body{
     justify-content: space-between;
     flex-direction: column ;
     gap: 50px;
+    width: 924px;
 }
 
 .hebergements-and-populaires section {
@@ -529,12 +532,13 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 20px;
     
 }
 
-.populaires .card{
-    width: 335px;
+.populaires-cards .card{
+    width: 275px;
 }
 /****** Hebergements ***********/
 .hebergements {
@@ -626,7 +630,7 @@ body{
 
 
 .activitescards .card-title2{
-    margin-top: 12px;
+    margin-top: 15px;
 }
 
 
@@ -689,7 +693,6 @@ html{
 }
 
 body{
-    padding-top:30px;
     margin:0px
 
 }
@@ -707,6 +710,10 @@ header{
     flex-direction: column;
     align-items: center;
     margin-bottom: 35px;
+}
+
+.logo {
+    padding: 30px;
 }
 
 nav{
@@ -755,6 +762,7 @@ nav :hover{
     font-size: 22px;
     margin: 0px;
     margin-bottom: 8px;
+    margin-top: 30px;
 }
 
 .phrasedaccrocheentete{
@@ -901,7 +909,7 @@ nav :hover{
 .activitescards{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 15px;
     align-items: center;
 }
 
