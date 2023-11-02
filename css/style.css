@@ -255,6 +255,13 @@ button:hover{
 
 }
 
+.nblogements{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -284,14 +291,18 @@ button:hover{
     flex: 1 0 0;
 }
 
+.hebergementsmarseille a{
+    width: 30%;
+}
+
 .hebergementsmarseille .card{
     height: 207px;
-    width: 250px;
+    width: 100%;
 }
 
 .images-hebergement{
     height: 124px;
-    width: 250px;
+    width: 100%;
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px ;
 }
@@ -322,7 +333,7 @@ button:hover{
 .colonne{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 30px;
 }
 
 
@@ -400,7 +411,11 @@ button:hover{
     justify-content: space-between;
     align-items: start;
     border: 0px;
+    gap: 30px;
+}
 
+.activitescards a{
+    width: 25%;
 }
 
 .activitescards .card{
@@ -413,7 +428,7 @@ button:hover{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 395px;
-    width: 297px;
+    width: 100%;
     
 }
 
@@ -516,7 +531,7 @@ body{
     justify-content: space-between;
     flex-direction: column ;
     gap: 50px;
-    width: 924px;
+
 }
 
 .hebergements-and-populaires section {
@@ -537,13 +552,27 @@ body{
     
 }
 
+.populaires{
+    width: 100px;
+    margin-top: 50px;
+}
+
+.populaires-cards a {
+    width: 30%;
+}
+
 .populaires-cards .card{
-    width: 275px;
+    width: 100%;
 }
 /****** Hebergements ***********/
 .hebergements {
     width: 924px;
 }
+
+.colonne{
+    width: 100%;
+}
+
 
 .hebergementsmarseille{
     display: flex;
@@ -556,14 +585,19 @@ body{
     
 }
 
+.hebergementsmarseille a{
+    width: 30%;
+
+}
+
 .hebergementsmarseille .card{
     height: auto;
-    width: 265px;
+    width: 100%;
 }
 
 .images-hebergement{
     height: 124px;
-    width: 264px;
+    width: 100%;
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px ;
 }
@@ -617,10 +651,14 @@ body{
 
 }
 
+.activitescards a{
+    width: 25%;
+}
+
 .activitescards .card{
     padding: 0px;
     height: 270px;
-    width: 193px;
+    width: 100%;
 }
 
 
@@ -641,7 +679,7 @@ body{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 200px;
-    width: 193px;
+    width: 100%;
     
 }
 
@@ -841,6 +879,10 @@ nav :hover{
 }
 
 
+.populaires-cards a{
+    width: 100%;
+}
+
 .hebergements{
     width: 120%;
     --main-bg-color: #fff;
@@ -856,6 +898,10 @@ nav :hover{
     
 }
 
+.hebergementsmarseille a{
+    width: 100%;
+}
+
 .hebergements-and-populaires{
     width: 100%;
     display: flex;
@@ -863,13 +909,14 @@ nav :hover{
     
 }
 
+
 .hebergement-card .card{
     height: 192px;
-    width: 325px;
+    width: 100%;
 }
 
 .images-hebergement {
-    width: 300px;
+    width: 100%;
 }
 
 
@@ -885,7 +932,7 @@ nav :hover{
 }
 
 .hebergementsmarseille .card{
-    width: 300px;
+    width: 100%;
 }
 
 .populaires .populaires-cards{
@@ -898,7 +945,6 @@ nav :hover{
 .section-activites{
     display: flex;
     flex-direction: column;
-    width: 100%;
     gap: 30px;
     margin-top: 0px;
     justify-content: center;
@@ -911,16 +957,21 @@ nav :hover{
     flex-direction: column;
     gap: 15px;
     align-items: center;
+    width: 100%;
+}
+
+.activitescards a{
+    width: 100%;
 }
 
 .activitescards .card{
     height: auto;
-    width: 300px;
+    width: 100%;
 }
 
 .activitescards img{
     height: 124px;
-    width: 300px;
+    width: 100%;
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px ;
 
